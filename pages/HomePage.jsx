@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar"
 import { FooterImg, PhantomImg } from '../assets';
 const HomePage = () => {
     return ( 
-        <div className="bg-bgColor w-full h-screen text-white">
+        <div className="bg-bgColor w-full text-white">
             <header>
                 <Navbar />
             </header>
@@ -12,7 +12,7 @@ const HomePage = () => {
 
                 <div className='w-1/2 px-4 pt-10'>
                    <div className='font-bold text-3xl '>Hi! am <span className='text-primary'>Elimihele</span> God’s Favour</div> 
-                   <p className='w-[72%] py-5 leading-[30px] text-[16px]'>
+                   <p className='w-[78%] py-5 leading-[30px] text-[16px]'>
                     Am a skilled, experienced and Solution-oriented web-developer,
                     and an open-source contributor experienced in building and maintaining
                      software and software architecture
