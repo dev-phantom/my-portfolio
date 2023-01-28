@@ -18,6 +18,7 @@ module.exports = {
     extend: {
       colors : {
         bgColor: "#222222",
+        altBg: "#1E1E1E",
         secondary: "#B86709",
         primary: "#25FF79",
         orange: "#CC4C0C",
