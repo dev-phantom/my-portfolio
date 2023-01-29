@@ -19,7 +19,7 @@ const HomePage = () => {
 
                 <div className='w-11/12 lg:w-1/2 px-0 md:px-4 pt-10'>
                    <div className='font-bold md:text-3xl text-2xl md:text-left text-center'>Hi! am <span className='text-primary'>Elimihele</span> God’s Favour</div> 
-                   <p className='md:w-[76%] w-full pt-5 leading-[30px] text-[16px] md:text-left text-center'>
+                   <p className='md:w-[76%] w-full pt-5 leading-[30px] text-[16px] text-left'>
                     Am a skilled, experienced and Solution-oriented web-developer,
                     and an open-source contributor experienced in building and maintaining
                      software and software architecture
