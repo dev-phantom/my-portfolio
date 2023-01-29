@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import Socials from '../components/Socials';
 
 const About = () => {
     return ( 
@@ -45,6 +46,10 @@ const About = () => {
                        </p>
                     </div>
                 </div>
+                
+            </div>
+            <div className='py-3 pr-20 absolute right-4'>
+                <Socials/>
             </div>
         </div>
      );

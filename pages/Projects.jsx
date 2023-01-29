@@ -1,13 +1,19 @@
 import Navbar from "../components/Navbar";
+import { useRouter } from 'next/router'
 import Image from 'next/image';
 import { linkashare, ladygrace } from '../assets';
 import Link from 'next/link'
 import data from '../data/data.json';
+import Socials from '../components/Socials';
+
 
 const Projects = () => {
     let projectInfo = data.projects
-    const handleGit = () => {
-        alert("test")
+    const router = useRouter()
+
+    const handleGit = (e) => {
+        e.preventDefault()
+        router.push("https://github.com/dev-phantom")
     }
     return ( 
         <div className=" w-full pb-8 text-white">
@@ -58,6 +64,9 @@ const Projects = () => {
 
             <div className="flex justify-center items-center pb-10 pt-20">
                 <button className="bg-primary px-20 py-4 text-[#000000] font-semibold rounded-xl" onClick={handleGit}>More Projects</button>
+            </div>
+            <div className='py-3 pr-20 absolute right-4'>
+                <Socials/>
             </div>
         </div>
      );
