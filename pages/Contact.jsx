@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "../components/Navbar";
 import Image from 'next/image';
+import Socials from '../components/Socials';
 
 
 const Contact = () => {
@@ -10,12 +11,12 @@ const Contact = () => {
     const[message,setMessage] = useState('');
 
     return ( 
-        <div className=" w-full pb-8 text-white">
+        <div className=" w-full text-white">
             <div>
                 <Navbar />
             </div>
-            <h1 className="font-Ubuntu text-primary font-bold text-[25px] text-center">GET IN TOUCH</h1>
-            <h4 className="font-Ubuntu text-textColor text-[17px] py-2 font-normal text-center">Contact us to get more information </h4>
+            <h1 className="font-Ubuntu pt-6 text-primary font-bold text-[25px] text-center">GET IN TOUCH</h1>
+            <h4 className="font-Ubuntu text-textColor text-[17px] py-2 font-normal text-center">I would love to hear from you</h4>
             <div className="flex w-full px-5 pt-5">
                 <div className="w-1/2 hidden xl:flex lg:flex justify-center items-center">
                     <Image 
@@ -59,6 +60,9 @@ const Contact = () => {
                         </div>
                     </form>
                 </div>
+            </div>
+            <div className='pr-20 rotate-90 absolute bottom-20 right-4'>
+                <Socials/>
             </div>
         </div>
      );
