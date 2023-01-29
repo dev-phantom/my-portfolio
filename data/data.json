@@ -1,0 +1,78 @@
+{
+  "projects": [
+
+        {
+            "id": 1,
+            "imgUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1674961910/portfolio/linkashare_jtc6wt.png",
+            "name": "linkashare",
+            "purpose": "made for links syncronization",
+            "first": "Tailwind",
+            "second": "ReactJs",
+            "third": "Typescript",
+            "preview": "http://lnk.com.ng",
+            "github": "https://github.com/linkashare"
+
+        },
+        {
+            "id": 2,
+            "imgUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1674961911/portfolio/ladygrace_lcmuwz.png",
+            "name": "ladyGrace",
+            "purpose": "get your favourite books",
+            "first": "Tailwind",
+            "second": "ReactJs",
+            "third": "firebase",
+            "preview": "https://ladygracepublishing.com/",
+            "github": "https://github.com/dev-phantom/ladyGrace"
+
+        },
+        {
+            "id": 3,
+            "imgUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1674966047/portfolio/Screenshot_from_2023-01-29_05-19-46_rpq6yq.png",
+            "name": "swifty config",
+            "purpose": "scaffold your projects with extra configurations",
+            "first": "swiftyConfig",
+            "second": "ReactJs",
+            "third": "scss",
+            "preview": "https://swifty-config.netlify.app/",
+            "github": "https://github.com/dev-phantom/Swifty-website"
+
+        },
+        {
+            "id": 4,
+            "imgUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1674965466/portfolio/tobiescraft_thhwmt.png",
+            "name": "tobies-kraft",
+            "purpose": "made for pastries",
+            "first": "Html",
+            "second": "Bootstrap Css",
+            "third": "Javascript",
+            "preview": "https://tobies-kraft.netlify.app/",
+            "github": "https://github.com/dev-phantom/Tobies-kraft"
+
+        },
+        
+        {
+            "id": 5,
+            "imgUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1674966416/portfolio/Screenshot_from_2023-01-29_05-26-44_s22wxv.png",
+            "name": "music player",
+            "purpose": "stream your favourites songs with ease",
+            "first": "Html",
+            "second": "css",
+            "third": "Javascript",
+            "preview": "https://phantom-music.netlify.app/",
+            "github": "https://github.com/dev-phantom/phantom-music"
+
+        },
+        {
+            "id": 6,
+            "imgUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1674967089/portfolio/Screenshot_from_2023-01-29_05-37-44_i567mj.png",
+            "name": "bukrida",
+            "purpose": "made for links syncronization",
+            "first": "Tailwind",
+            "second": "ReactJs",
+            "third": "Typescript",
+            "preview": "https://bukrida.netlify.app/",
+            "github": "https://github.com/dev-phantom/bukrida"
+
+        }
+  ]
+}
