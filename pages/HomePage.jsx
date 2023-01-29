@@ -17,7 +17,7 @@ const HomePage = () => {
 
             <main className='w-full flex flex-col-reverse lg:flex-row justify-between items-center px-5 md:px-10 py-20 '>
 
-                <div className='w-11/12 lg:w-1/2 px-4 pt-10'>
+                <div className='w-11/12 lg:w-1/2 px-2 md:px-4 pt-10'>
                    <div className='font-bold md:text-3xl text-2xl md:text-left text-center'>Hi! am <span className='text-primary'>Elimihele</span> God’s Favour</div> 
                    <p className='md:w-[76%] w-full pt-5 leading-[30px] text-[16px] md:text-left text-center'>
                     Am a skilled, experienced and Solution-oriented web-developer,
