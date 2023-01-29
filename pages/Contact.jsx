@@ -61,7 +61,7 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
-            <div className='pr-20 rotate-90 absolute bottom-20 right-4'>
+            <div className='pr-20 rotate-90 absolute bottom-10 right-4'>
                 <Socials/>
             </div>
         </div>
