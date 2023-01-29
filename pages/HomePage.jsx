@@ -29,7 +29,7 @@ const HomePage = () => {
                         <Socials/>
                     </div>
                     <div>
-                            <button className='px-8 py-2 bg-primary text-center font-bold rounded-lg text-xl text-[#1E1E1E]' onClick={handleResume} target="_blank">Resume</button>
+                        <button className='px-8 py-2 bg-primary text-center font-bold rounded-lg text-xl text-[#1E1E1E]' onClick={handleResume} target="_blank">Resume</button>
                     </div>
                    </div>
                 </div>
