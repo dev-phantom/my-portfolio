@@ -6,6 +6,9 @@ import data from '../data/data.json';
 
 const Projects = () => {
     let projectInfo = data.projects
+    const handleGit = () => {
+        alert("test")
+    }
     return ( 
         <div className=" w-full pb-8 text-white">
             <div>
@@ -53,6 +56,9 @@ const Projects = () => {
                 )})}
             </div>
 
+            <div className="flex justify-center items-center pb-10 pt-20">
+                <button className="bg-primary px-20 py-4 text-[#000000] font-semibold rounded-xl" onClick={handleGit}>More Projects</button>
+            </div>
         </div>
      );
 }
