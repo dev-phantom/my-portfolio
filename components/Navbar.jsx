@@ -49,7 +49,7 @@ const Navbar = () => {
                 <div>
                     <h1  className={`${inter.variable} font-sans text-lg font-bold text-secondary`}>dev.phantom</h1>
                 </div>
-                {isOpen && <div className="w-1/2 h-screen bg-altBg fixed top-0 right-0 flex justify-center items-center flex-col ">
+                {isOpen && <div className="z-[999] w-1/2 h-screen bg-altBg fixed top-0 right-0 flex justify-center items-center flex-col ">
                 <button onClick={handleClick} className='text-white fixed top-3 right-5'>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
