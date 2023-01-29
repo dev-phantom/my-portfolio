@@ -29,7 +29,7 @@ const Projects = () => {
                     <div className="absolute right-[-6rem] top-12 bg-altBg w-[40%] p-2 rounded-lg">
                         <h2 className="text-sm text-orange capitalize">{items.first} <span className="text-primary font-bold text-center text-lg">.</span> {items.second} <span className="text-primary font-bold text-center text-lg">.</span> {items.third}</h2>
                         <h1 className="text-md capitalize leading-[35px] py-3">{items.name} - {items.purpose}</h1>
-                        <div className="flex justify-between px-3 pb-5">
+                        <div className="flex justify-between px-1 pb-5">
                             <Link href={items.preview} target="_blank" className="flex">
                                 <span className="pr-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
