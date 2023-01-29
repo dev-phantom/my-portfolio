@@ -17,7 +17,7 @@ const Contact = () => {
             </div>
             <h1 className="font-Ubuntu pt-6 text-primary font-bold text-[25px] text-center">GET IN TOUCH</h1>
             <h4 className="font-Ubuntu text-textColor text-[17px] py-2 font-normal text-center">I would love to hear from you</h4>
-            <div className="flex w-full px-5 pt-5">
+            <div className="flex w-full px-5 py-5 mb-10">
                 <div className="w-1/2 hidden xl:flex lg:flex justify-center items-center">
                     <Image 
                     src="https://res.cloudinary.com/phantom1245/image/upload/v1674995766/portfolio/Screenshot_from_2023-01-29_13-33-11-removebg-preview_yt3ju4.png" 
@@ -61,7 +61,7 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
-            <div className='pr-0 md:pr-20 mt-4 md:mt-0 rotate-0 md:rotate-90 absolute bottom-2 md:bottom-10 right-4'>
+            <div className='pr-0 md:pr-20 mt-4 md:mt-0 rotate-0 md:rotate-90 absolute bottom-[2] md:bottom-10 right-4'>
                 <Socials/>
             </div>
         </div>
