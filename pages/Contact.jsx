@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "../components/Navbar";
 import Image from 'next/image';
+import Head from 'next/head'
 import Socials from '../components/Socials';
 
 
@@ -12,6 +13,9 @@ const Contact = () => {
 
     return ( 
         <div className=" w-full text-white">
+            <Head>
+                <title>contact-me</title>
+            </Head>
             <div>
                 <Navbar />
             </div>

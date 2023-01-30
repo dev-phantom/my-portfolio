@@ -3,6 +3,8 @@ import { useRouter } from 'next/router'
 import Navbar from "../components/Navbar"
 import { FooterImg, PhantomImg } from '../assets';
 import Socials from '../components/Socials';
+import Head from 'next/head'
+
 const HomePage = () => {
     const router = useRouter()
       const handleResume = (e) => {
@@ -11,6 +13,9 @@ const HomePage = () => {
         }
     return ( 
         <div className="bg-bgColor w-full text-white">
+            <Head>
+                <title>home</title>
+            </Head>
             <header>
                 <Navbar />
             </header>

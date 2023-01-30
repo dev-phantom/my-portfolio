@@ -5,7 +5,7 @@ import { linkashare, ladygrace } from '../assets';
 import Link from 'next/link'
 import data from '../data/data.json';
 import Socials from '../components/Socials';
-
+import Head from 'next/head'
 
 const Projects = () => {
     let projectInfo = data.projects
@@ -17,6 +17,9 @@ const Projects = () => {
     }
     return ( 
         <div className=" w-full pb-8 text-white ">
+            <Head>
+                <title>projects</title>
+            </Head>
             <div>
                 <Navbar />
             </div>

@@ -1,9 +1,14 @@
 import Navbar from "../components/Navbar";
 import Socials from '../components/Socials';
 
+import Head from 'next/head'
+
 const About = () => {
     return ( 
         <div className="bg-bgColor w-full pb-8 text-white">
+            <Head>
+                <title>about-me</title>
+            </Head>
             <div>
                 <Navbar />
             </div>
