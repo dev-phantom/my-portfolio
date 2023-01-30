@@ -30,7 +30,7 @@ const About = () => {
                        <h4 className="font-medium text-md ">senior web developer</h4> 
                        <h3 className="text-lg font-medium py-1 text-orange">2021-2023</h3>
                        <p className="text-md font-medium ppr-3 md:pr-20">Praise Tech is an enterprise that deals with delivering highly proficient websites just in time
-                       I led the frontend team and created some user friendly and responsive websites, i also cooridinated the junior devs and interns there.
+                       I led the frontend team and created some user friendly and responsive websites, i also co-ordinated the junior devs and interns there.
                        </p>
                     </div>
 
