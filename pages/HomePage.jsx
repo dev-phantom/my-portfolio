@@ -9,7 +9,7 @@ const HomePage = () => {
     const router = useRouter()
       const handleResume = (e) => {
             e.preventDefault()
-            router.push("https://drive.google.com/file/d/1v55ZM2hpi60JN0fZfZoEgRzDOyBFMfSp/view?usp=sharing")
+            router.push("https://drive.google.com/file/d/1PmCbVb-DndoKyhqlqZinykE48BAqZP7V/view?usp=drivesdk")
         }
     return ( 
         <div className="bg-bgColor w-full text-white">
