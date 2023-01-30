@@ -17,7 +17,7 @@ const About = () => {
                     as a cloud storage technology 
                 </p>
             </div>
-            <div className=" px-10 md:px-40">
+            <div className=" px-10 md:px-20 lg:px-40">
                 <h1 className="font-semibold text-2xl py-10 ">My <span className="text-primary">Experiences</span></h1>
                 <div className="grid grid-col-1 md:grid-cols-2 w-full gap-10">
                     <div className="bg-altBg rounded-lg  p-4 border-l-2 border-orange">

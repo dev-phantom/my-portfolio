@@ -26,7 +26,7 @@ const Contact = () => {
                     height={400}
                     />
                 </div>
-                <div className="">
+                <div className="w-full lg:w-1/2 flex justify-center items-center">
                     <form action="" >
                         <div className="mt-5">
                             <label htmlFor=""  className='capitalize text-primary font-bold text-[17px] font-Nunito not-italic leading-9'>Full Name</label>

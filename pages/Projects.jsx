@@ -21,12 +21,12 @@ const Projects = () => {
                 <Navbar />
             </div>
             <h1 className="font-semibold text-3xl md:text-4xl py-10 text-center">My-<span className="text-primary">Projects</span></h1>
-            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-10 md:px-14">
+            <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-5 gap-y-10 md:px-14">
             {projectInfo.map((items) => {
-                        return(
+                return(
                         
-                <div className="card px-5 mx-auto mt-10 md:mt-0" key={items.id}>
-                    <div className="absolute right-[-20px] top-[-55px] md:right-[-6rem] md:top-12 bg-altBg w-[60%] md:w-[40%] p-2 rounded-lg">
+                <div className="card px-5 mx-auto mt-10 " key={items.id}>
+                    <div className="absolute right-[-20px] top-[-55px] lg:right-[-6rem]lg:top-12 bg-altBg w-[60%] md:w-[40%] p-2 rounded-lg">
                         <h2 className="text-sm text-orange capitalize">{items.first} <span className="text-primary font-bold text-center text-lg">.</span> {items.second} <span className="text-primary font-bold text-center text-lg">.</span> {items.third}</h2>
                         <h1 className="text-md capitalize leading-[25px] md:leading-[35px] py-1 md:py-3"><span className="text-primary">{items.name}</span> - {items.purpose}</h1>
                         <div className="flex justify-between px-1 pb-5">
