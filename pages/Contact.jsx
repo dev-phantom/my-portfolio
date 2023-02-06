@@ -31,7 +31,7 @@ const Contact = () => {
                     />
                 </div>
                 <div className="w-full lg:w-1/2 flex justify-center items-center">
-                    <form action="https://formsubmit.co/af45f13d14f5deabc289c292eac1d386" method="POST">
+                    <form action="https://formsubmit.co/confirm/af45f13d14f5deabc289c292eac1d386" method="POST">
                         <div className="mt-5">
                             <label htmlFor=""  className='capitalize text-primary font-bold text-[17px] font-Nunito not-italic leading-9'>Full Name</label>
                         <input
