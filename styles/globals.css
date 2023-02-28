@@ -16,6 +16,7 @@
 }
 body{
     background:#222;
+    color: #fff;
 }
 .card {
     backdrop-filter: blur(25px) saturate(75%);
