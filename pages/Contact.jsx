@@ -31,7 +31,7 @@ const Contact = () => {
                     />
                 </div>
                 <div className="w-full lg:w-1/2 flex justify-center items-center">
-                    <form action="" >
+                    <form action="https://formsubmit.co/confirm/af45f13d14f5deabc289c292eac1d386" method="POST">
                         <div className="mt-5">
                             <label htmlFor=""  className='capitalize text-primary font-bold text-[17px] font-Nunito not-italic leading-9'>Full Name</label>
                         <input
@@ -60,7 +60,7 @@ const Contact = () => {
                         />
                         </div>
                         <div className="mt-8">
-                            <button className="bg-primary w-full py-3 text-bgColor rounded-lg" >Send</button>
+                            <button className="bg-primary w-full py-3 text-bgColor rounded-lg" type="submit">Send</button>
                         </div>
                     </form>
                 </div>
