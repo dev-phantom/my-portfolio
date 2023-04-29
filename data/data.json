@@ -3,14 +3,14 @@
 
         {
             "id": 1,
-            "imgUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1674961910/portfolio/linkashare_jtc6wt.png",
-            "name": "linkashare",
-            "purpose": "made for links syncronization",
+            "imgUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1682798692/portfolio/Screenshot_from_2023-04-29_20-24-42_l3goy3.png",
+            "name": "Bastion health",
+            "purpose": "Get health insurance that just makes sense",
             "first": "Tailwind",
-            "second": "ReactJs",
-            "third": "Typescript",
-            "preview": "http://lnk.com.ng",
-            "github": "https://github.com/linkashare"
+            "second": "Nextjs",
+            "third": "Chakra-ui",
+            "preview": "https://bastion-health.vercel.app/",
+            "github": "https://github.com/dev-phantom/bastion-health"
 
         },
         {
@@ -39,14 +39,14 @@
         },
         {
             "id": 4,
-            "imgUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1674965466/portfolio/tobiescraft_thhwmt.png",
-            "name": "tobies-kraft",
-            "purpose": "made for pastries",
-            "first": "Html",
-            "second": "Bootstrap Css",
+            "imgUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1682800087/portfolio/Screenshot_from_2023-04-29_21-27-38_jjxmtg.png",
+            "name": "phantom-rentals",
+            "purpose": "find afforrdable apartment at low cost",
+            "first": "react",
+            "second": "tailwind-css",
             "third": "Javascript",
-            "preview": "https://tobies-kraft.netlify.app/",
-            "github": "https://github.com/dev-phantom/Tobies-kraft"
+            "preview": "https://home-rental-agency.netlify.app",
+            "github": "https://github.com/favourite1975/sage-challenge"
 
         },
         
@@ -64,14 +64,14 @@
         },
         {
             "id": 6,
-            "imgUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1674967089/portfolio/Screenshot_from_2023-01-29_05-37-44_i567mj.png",
-            "name": "bukrida",
-            "purpose": "made for links syncronization",
+            "imgUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1682800471/portfolio/Screenshot_from_2023-04-29_21-34-16_l8cpxm.png",
+            "name": "nounite",
+            "purpose": "Making Open and Distant Learning Easier",
             "first": "Tailwind",
             "second": "ReactJs",
             "third": "Typescript",
-            "preview": "https://bukrida.netlify.app/",
-            "github": "https://github.com/dev-phantom/bukrida"
+            "preview": "https://nounite.netlify.app/",
+            "github": "https://github.com/NOUNITE"
 
         }
   ],
