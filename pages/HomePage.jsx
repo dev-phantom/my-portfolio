@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/image';
 import { useRouter } from 'next/router'
 import Navbar from "../components/Navbar"
 import { FooterImg, PhantomImg } from '../assets';
@@ -6,6 +6,7 @@ import Socials from '../components/Socials';
 import Head from 'next/head'
 
 const HomePage = () => {
+
     const router = useRouter()
       const handleResume = (e) => {
             e.preventDefault()
@@ -45,19 +46,35 @@ const HomePage = () => {
                         src={PhantomImg}
                         alt="Picture of the author"
                         className='md:w-[330px] w-[250px]'
-                                    
+                        onError={(e) => {
+                           e.target.onerror = null || undefined;
+                            e.target.src = 'https://res.cloudinary.com/phantom1245/image/upload/v1685475497/portfolio/Group_5_xbe5gw.png';
+                            e.target.width = 330; // Set the width of the alternative image
+                            e.target.height = 250; // Set the height of the alternative image
+                        }}
+                        width={330} // Set the width of the original image
+                        height={250} // Set the height of the original image
                         />
                     </div>
+
                 </div>
 
             </main>
 
             <footer className="w-full absolute bottom-[-1]  hidden lg:flex">
+
                 <Image
-                    src={FooterImg}
-                    alt="Picture of the author"
-                    className='w-full h-1/2'
-                    
+                        src={FooterImg}
+                        alt="footer image"
+                        className='w-full h-1/2'
+                        onError={(e) => {
+                           e.target.onerror = null || undefined;
+                            e.target.src = 'https://res.cloudinary.com/phantom1245/image/upload/v1685475497/portfolio/Group_5_xbe5gw.png';
+                            e.target.width = 330; // Set the width of the alternative image
+                            e.target.height = 250; // Set the height of the alternative image
+                        }}
+                        width={330} // Set the width of the original image
+                        height={250} // Set the height of the original image
                 />
             </footer>
         </div>
