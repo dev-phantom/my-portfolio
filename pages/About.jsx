@@ -1,20 +1,21 @@
 import Navbar from "../components/Navbar";
 import Socials from '../components/Socials';
+import Footer from '../components/Footer';
 
 import Head from 'next/head'
 
 const About = () => {
     return ( 
-        <div className="bg-bgColor w-full pb-8 text-white">
+        <div className="bg-bgColor w-full text-white">
             <Head>
-                <title>about-me</title>
+                <title>About Me - Phantom Portfolio 🚀</title>
             </Head>
             <div>
                 <Navbar />
             </div>
-            <h1 className="font-semibold text-3xl md:text-4xl py-10 text-center">About-<span className="text-primary">me</span></h1>
+            <h1 className="m-6rem font-semibold text-3xl md:text-4xl py-10 text-center">About-<span className="text-primary">Me</span></h1>
             <div className="w-full flex justify-center items-center ">
-                <p className=" bg-altBg w-11/12 md:w-[80%] font-semibold text-md  md:text-xl p-5 md:p-12 rounded-lg leading-[25px] md:leading-[40px]">
+                <p className="font-[500] bg-altBg w-11/12 md:w-[80%] md:text-4xl p-5 md:p-12 rounded-lg leading-[2.3rem] md:leading-[40px]">
                     I am a <span className="text-secondary">diligent</span> web developer/designer & an open source contributor with 5 years of experience in building user-friendly web-applications & web-sites. 
                     Highly skilled in communication, <span className="text-secondary">collaboration,</span> and designing of appealing user-centered, and friendly interfaces, Building and designing responsive web components, with modern technologies such as HTML, CSS & Javascript including frameworks/library like, 
                     <span className="text-secondary">ReactJs,</span> NextJs, Typescript, JQuery and css libraries such as TailwindCss, ChakraUi, bootstrap, SCSS e.t.c.
@@ -57,6 +58,7 @@ const About = () => {
             <div className='py-3 pr-20 absolute right-4'>
                 <Socials/>
             </div>
+            <Footer />
         </div>
      );
 }

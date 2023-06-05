@@ -2,27 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "General Sans", sans-serif;
 }
 
-@font-face {
-    font-family: inter;
-    src: url(../assets/fonts/Inter-Regular.ttf);
+body {
+  background: #222;
+  color: #fff;
 }
-body{
-    background:#222;
-    color: #fff;
-}
+
 .card {
-    backdrop-filter: blur(25px) saturate(75%);
-    -webkit-backdrop-filter: blur(25px) saturate(75%);
-    background-color: rgba(255, 255, 255, 0.35);
-    border-radius: 12px;
-    border: 1px solid rgba(209, 213, 219, 0.3);
-    @apply p-5 md:p-10 w-[80%];
+  backdrop-filter: blur(25px) saturate(75%);
+  -webkit-backdrop-filter: blur(25px) saturate(75%);
+  background-color: rgba(255, 255, 255, 0.35);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  @apply p-5 md:p-10 w-[80%];
 }

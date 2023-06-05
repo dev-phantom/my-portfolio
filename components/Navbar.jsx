@@ -45,11 +45,11 @@ const Navbar = () => {
                 </div>
             </nav>
 
-            <nav className={`${inter.variable} z-[999] w-full md:hidden font-sans flex flex-wrap justify-between items-center px-10 py-5`}>
+            <nav className={`fixed z-[999] w-full md:hidden font-sans flex flex-wrap justify-between items-center px-5 py-5`}>
                 <div>
-                    <h1  className={`${inter.variable} font-sans text-lg font-bold text-secondary`}>dev.phantom</h1>
+                    <h1  className={`text-lg font-[700] text-secondary`}>dev.phantom</h1>
                 </div>
-                {isOpen && <div className="z-[999] w-1/2 h-screen bg-altBg fixed top-0 right-0 flex justify-center items-center flex-col ">
+                {isOpen && <div className="z-[999] w-screen h-1/2 bg-altBg fixed top-0 right-0 flex justify-center items-center flex-col ">
                 <button onClick={handleClick} className='text-white fixed top-3 right-5'>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -68,7 +68,7 @@ const Navbar = () => {
                             isActive
                             ? "text-primary"
                             : "text-textColor",
-                            "px-3 py-2 text-lg font-medium "
+                            "px-3 py-2 text-xl font-medium "
                         )}
                         >{title}</Link>
                     
