@@ -41,12 +41,12 @@
             "id": 4,
             "imgUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1682800087/portfolio/Screenshot_from_2023-04-29_21-27-38_jjxmtg.png",
             "name": "phantom-rentals",
-            "purpose": "find afforrdable apartment at low cost",
+            "purpose": "find afforrdable apartment ",
             "first": "react",
             "second": "tailwind-css",
             "third": "Javascript",
-            "preview": "https://home-rental-agency.netlify.app",
-            "github": "https://github.com/favourite1975/sage-challenge"
+            "preview": "https://phantom-hotel.netlify.app/",
+            "github": "https://github.com/dev-phantom/phantom-hotel"
 
         },
         
@@ -54,7 +54,7 @@
             "id": 5,
             "imgUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1674966416/portfolio/Screenshot_from_2023-01-29_05-26-44_s22wxv.png",
             "name": "music player",
-            "purpose": "stream your favourites songs with ease",
+            "purpose": "stream your favourites songs ",
             "first": "Html",
             "second": "css",
             "third": "Javascript",
