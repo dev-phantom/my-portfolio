@@ -65,19 +65,6 @@ const HomePage = () => {
           </div>
         </div>
       </main>
-
-      <footer className="w-full absolute bottom-0 hidden lg:flex">
-        <img
-          src="https://res.cloudinary.com/phantom1245/image/upload/v1685475490/portfolio/Group_6_u2pb7m.png"
-          alt="footer image"
-          className="w-full h-1/2"
-          onError={(e) => {
-            e.target.onerror = null;
-            e.target.src =
-              "https://res.cloudinary.com/phantom1245/image/upload/v1685475490/portfolio/Group_6_u2pb7m.png";
-          }}
-        />
-      </footer>
     </div>
   );
 };
