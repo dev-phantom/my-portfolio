@@ -11,7 +11,7 @@ const HomePage = () => {
   const handleResume = (e) => {
     e.preventDefault();
     router.push(
-      "https://drive.google.com/file/d/1FEbKb_aZgwmVgJ4LamZGSdLsFC0c8jgh/view?usp=drive_link"
+      "https://drive.google.com/file/d/1Btmt92tNCLEk3DQLUk2jpAUIoi3M2nZN/view?usp=sharing"
     );
   };
 

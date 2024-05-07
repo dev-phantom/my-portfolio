@@ -27,9 +27,9 @@ const Projects = () => {
         My-<span className="text-primary">Projects</span>
       </h1>
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-5 gap-y-10 md:px-14">
-        {projectInfo.map((items) => {
+        {projectInfo.map((items, index) => {
           return (
-            <div className="card px-5 mx-auto mt-10 " key={items.id}>
+            <div className="card px-5 mx-auto mt-10 " key={index}>
               <div className="absolute right-[-20px] top-[-55px] lg:right-[-6rem]lg:top-12 bg-altBg w-[60%] md:w-[40%] p-2 rounded-lg">
                 <h2 className="text-sm text-orange capitalize">
                   {items.first}{" "}
