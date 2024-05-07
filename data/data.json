@@ -2,7 +2,39 @@
   "projects": [
 
         {
-            "id": 1,
+            "imgUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1715048766/portfolio/Screenshot_7-5-2024_32440_farm2home.ng_liuxwk.jpg",
+            "name": "Farm2home",
+            "purpose": "connecting people with the goodness of the farm...",
+            "first": "Tailwind",
+            "second": "ReactJs",
+            "third": "M-tailwind",
+            "preview": "https://farm2home.ng/",
+            "github": "#"
+
+        },
+        {
+            "imgUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1715048755/portfolio/Screenshot_7-5-2024_32234_cdc-chatbot.netlify.app_xxasxl.jpg",
+            "name": "CDC Chatbot",
+            "purpose": "Our goal is to support you and your family...",
+            "first": "Tailwind",
+            "second": "ReactJs",
+            "third": "M-tailwind",
+            "preview": "https://cdc-chatbot.netlify.app/",
+            "github": "#"
+
+        },
+        {
+            "imgUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1715048758/portfolio/Screenshot_7-5-2024_32147_nomes-travels.com.ng_jpdvia.jpg",
+            "name": "Nome's Travel",
+            "purpose": "offer expert consulting to unravel your journey's complexities...",
+            "first": "Tailwind",
+            "second": "ReactJs",
+            "third": "M-tailwind",
+            "preview": "https://nomes-travels.com.ng/",
+            "github": "#"
+
+        },
+        {
             "imgUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1682798692/portfolio/Screenshot_from_2023-04-29_20-24-42_l3goy3.png",
             "name": "Bastion health",
             "purpose": "Get health insurance that...",
@@ -14,7 +46,6 @@
 
         },
         {
-            "id": 2,
             "imgUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1674961911/portfolio/ladygrace_lcmuwz.png",
             "name": "ladyGrace",
             "purpose": "get your favourite books",
@@ -26,7 +57,6 @@
 
         },
         {
-            "id": 3,
             "imgUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1674966047/portfolio/Screenshot_from_2023-01-29_05-19-46_rpq6yq.png",
             "name": "swifty config",
             "purpose": "scaffold your projects with...",
@@ -38,7 +68,6 @@
 
         },
         {
-            "id": 4,
             "imgUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1682800087/portfolio/Screenshot_from_2023-04-29_21-27-38_jjxmtg.png",
             "name": "phantom-rentals",
             "purpose": "find afforrdable apartment ",
@@ -51,7 +80,6 @@
         },
         
         {
-            "id": 5,
             "imgUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1674966416/portfolio/Screenshot_from_2023-01-29_05-26-44_s22wxv.png",
             "name": "music player",
             "purpose": "stream your favourites songs ",
@@ -63,7 +91,6 @@
 
         },
         {
-            "id": 6,
             "imgUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1682800471/portfolio/Screenshot_from_2023-04-29_21-34-16_l8cpxm.png",
             "name": "nounite",
             "purpose": "Making Open and Distant Learning Easier",

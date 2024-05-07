@@ -38,17 +38,22 @@ const About = () => {
           My <span className="text-primary">Experiences</span>
         </h1>
         <div className="grid grid-col-1 md:grid-cols-2 w-full gap-10">
-          <div className="bg-altBg rounded-lg  p-4 border-l-2 border-orange">
+          <div className="bg-altBg rounded-lg p-4 border-l-2 border-orange">
             <h2 className="text-xl font-bold py-1 capitalize ">
-              Praisetech <span className="text-secondary">Enterprise</span>
+              New <span className="text-secondary">Usual</span>
             </h2>
-            <h4 className="font-medium text-md ">senior web developer</h4>
-            <h3 className="text-lg font-medium py-1 text-orange">2021-2023</h3>
-            <p className="text-md font-medium ppr-3 md:pr-20">
-              Praise Tech is an enterprise that deals with delivering highly
-              proficient websites just in time I led the frontend team and
-              created some user friendly and responsive websites, i also
-              co-ordinated the junior devs and interns there.
+            <h4 className="font-medium text-md ">
+              Senior-frontend web developer
+            </h4>
+            <h3 className="text-lg font-medium py-1 text-orange">
+              2023-present
+            </h3>
+            <p className="text-md font-medium pr-3 md:pr-20">
+              At New Usual, we are qualified professionals with diverse
+              expertise and extensive industry knowledge. We specialize in
+              financial services, oil and gas, telecommunications,
+              manufacturing, services, education, healthcare, government, and
+              NGOs.
             </p>
           </div>
 
@@ -59,10 +64,28 @@ const About = () => {
             <h4 className="font-medium text-md ">
               Senior-frontend web developer
             </h4>
-            <h3 className="text-lg font-medium py-1 text-orange">2019-2021</h3>
+            <h3 className="text-lg font-medium py-1 text-orange">
+              Jan 2022 - Jan 2023
+            </h3>
             <p className="text-md font-medium pr-3 md:pr-20">
               Exedox is a great team of developers that collaborate to solve
               problem driven tasks and build awesome projects
+            </p>
+          </div>
+
+          <div className="bg-altBg rounded-lg  p-4 border-l-2 border-orange">
+            <h2 className="text-xl font-bold py-1 capitalize ">
+              Praisetech <span className="text-secondary">Enterprise</span>
+            </h2>
+            <h4 className="font-medium text-md ">Frontend web developer</h4>
+            <h3 className="text-lg font-medium py-1 text-orange">
+              Dec 2019 - Dec 2021
+            </h3>
+            <p className="text-md font-medium ppr-3 md:pr-20">
+              Praise Tech is an enterprise that deals with delivering highly
+              proficient websites just in time I led the frontend team and
+              created some user friendly and responsive websites, i also
+              co-ordinated the junior devs and interns there.
             </p>
           </div>
 
@@ -73,7 +96,9 @@ const About = () => {
             <h4 className="font-medium text-md ">
               Junior-frontend web developer
             </h4>
-            <h3 className="text-lg font-medium py-1 text-orange">feb 2018- sept 2019</h3>
+            <h3 className="text-lg font-medium py-1 text-orange">
+              Feb 2018 - Sept 2019
+            </h3>
             <p className="text-md font-medium pr-3 md:pr-20">
               Code cube is a software company that provides simple tech
               solutions for businesses, individuals and companies.
